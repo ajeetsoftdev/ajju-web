@@ -22,19 +22,19 @@ function App() {
         <div className="button-container">
           {isSwapped ? (
             <>
-              <button  onClick={()=>alert('Karogi kaise nhi 😍')} className="btn yes" onMouseEnter={handleHover}>
+              <button  onClick={()=>alert('Mujhe pta tha 😍')} className="btn yes" onMouseEnter={handleHover}>
                 Yes
               </button>
-              <button onClick={()=>alert('Karogi kaise nhi 😍')} className="btn no" onMouseEnter={handleHover}>
+              <button onClick={()=>alert('Mujhe pta tha 😍')} className="btn no" onMouseEnter={handleHover}>
                 No
               </button>
             </>
           ) : (
             <>
-              <button onClick={()=>alert('Karogi kaise nhi 😍')} className="btn no" onMouseEnter={handleHover}>
+              <button onClick={()=>alert('Mujhe pta tha 😍')} className="btn no" onMouseEnter={handleHover}>
                 No
               </button>
-              <button onClick={()=>alert('Karogi kaise nhi 😍')} className="btn yes" onMouseEnter={handleHover}>
+              <button onClick={()=>alert('Mujhe pta tha 😍')} className="btn yes" onMouseEnter={handleHover}>
                 Yes
               </button>
             </>
